@@ -1,0 +1,44 @@
+.header{
+    display: flex; /* para podermos usar os elementos do flex */
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.headerRight{
+    padding-left: 170px;
+    display: flex;
+    align-items: center;
+    min-width: 10vh;
+}
+
+.headerRight > .MuiSvgIcon-root{ /* estilizando o svg do material icon */
+    margin-right: 2vw;
+}
+
+.search{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+}
+
+.search > input { /* configurando o input do search */
+    border: none;
+    margin-left: 10px;
+    width: 175px;
+    outline:none; /* tira a borda do input no clique */
+    background-color: #f6f6f6;
+}
+
+.search > .MuiSvgIcon-root{ /* estilizando o svg do material icon */
+    color: gray;
+}
+
+.chats{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f6f6f6;
+}
+.chatTitle{
+    font-size: 25px;
+}

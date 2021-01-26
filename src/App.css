@@ -1,0 +1,15 @@
+.App{
+    display: grid; /* para fazer um layout de grids e poder usar o place items*/
+    place-items: center; /* alinha todos os items no centro */
+    background-color: #dadbd3;
+    height: 100vh; /* mesmo que 100% na altura*/
+}
+
+.body{
+    display: flex; /* pra poder trabalhar com cols e rows */
+    background-color: #ededed;
+    margin-top: -30px;
+    height: 90vh; /* equivale a 90% na altura */
+    width: 90vw; /* 90% na largura vw(width)*/
+    box-shadow: -1px 4px 20px -6px black; /* sombra na div / -1px - top 4px - right 20px - bottom -6px -left / cor: preto */
+}

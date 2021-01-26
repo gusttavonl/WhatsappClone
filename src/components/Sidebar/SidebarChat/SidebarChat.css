@@ -1,0 +1,19 @@
+.sidebarChat{
+    height: 50vh;
+    overflow-y: scroll; /* para aparecer os scroll pros chats */
+    padding-top: 30px;
+    display: flex; /* usando isso podemos manipular os elementos de texto no tamanho definido para eles */
+   
+}
+
+.sidebarChatName{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.sidebarChatMessage{
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: -124px;
+    color: gray;
+}
